@@ -1,4 +1,4 @@
-# Linux commands
+# Linux Commands
 
 ## Print info
 > `info`
