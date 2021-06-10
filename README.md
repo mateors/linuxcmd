@@ -82,18 +82,18 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 #### Get the umask value
 >`$ umask`
 
->Lets assume your umask value is 002
->octal to binary to mode
->002 --> 010 --> -w-
+>Lets assume your umask value is 002 \
+>octal to binary to mode \
+>002 --> 010 --> -w- 
 
-> Now create a file called: student.txt
-> Calculate the mode value beforehand:
-> rw- rw- rw-
-> --- --- -w-
-> ----------------
+> Now create a file called: student.txt \
+> Calculate the mode value beforehand: \
+> rw- rw- rw- \
+> --- --- -w- \
+> ---------------- \
 > rw- rw- r-- ==> 664
 
-* Now check the student.txt file permssion using ls -l or stat command
+> Now check the student.txt file permssion using ls -l or stat command
 `$ stat student.txt`
 
 
