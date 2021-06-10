@@ -3,7 +3,7 @@
 ## Print info
 > `info`
 
-## Hard link
+## Hard link \
 [Link Guide](https://www.computerhope.com/unix/uln.htm)
 `$ link fileExist.txt newLinkFile.txt`
 * The file name and the file's data are two separate entities.
