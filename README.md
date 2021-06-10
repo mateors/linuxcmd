@@ -75,14 +75,14 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 
 ## Deafult permission | umask command
 
-### Default File permission
-> Files: rw-rw-rw- (666)
-> Directories: rwxrwxrwx (777)
+### Default File Permission
+* Files: rw-rw-rw- (666) \
+* Directories: rwxrwxrwx (777)
 
 #### Get the umask value
 >`$ umask`
 
->Lets assume your umask value is 002 \
+>Lets assume your umask value is **002** \
 >octal to binary to mode \
 >002 --> 010 --> -w- 
 
