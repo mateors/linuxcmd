@@ -3,9 +3,9 @@
 ## Print info
 > `info`
 
-## Hard link \
-[Link Guide](https://www.computerhope.com/unix/uln.htm)
-`$ link fileExist.txt newLinkFile.txt`
+## Hard link
+[Link Guide](https://www.computerhope.com/unix/uln.htm) \
+``$ link fileExist.txt newLinkFile.txt``
 * The file name and the file's data are two separate entities.
 ![link illustration](https://www.computerhope.com/unix/images/nolink-diagram.jpg)
 
@@ -43,10 +43,10 @@
 ls -F appends symbols to filenames. These symbols show useful information about files.
 
 - @ means symbolic link (or that the file has extended attributes).
-- * means executable.
+- \* means executable.
 - = means socket.
 - | means named pipe.
-- > means door.
+- \> means door.
 - / means directory.
 
 > `ls -F | grep -Ev '/|@|*|=|\|'`
