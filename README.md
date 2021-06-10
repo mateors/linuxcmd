@@ -1,7 +1,7 @@
 # Linux Commands
 
 ## Info (List all the available command info )
-> `info`
+> `$ info`
 
 ## which command gives the command location / source path
 `$ which ls`
