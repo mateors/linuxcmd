@@ -1,12 +1,20 @@
 # Linux Commands
 
-## Print info
+## Info (List all the available command info )
 > `info`
+
+## which command gives the command location / source path
+`$ which ls`
+output:\n
+> /usr/bin/ls
 
 ## Hard link
 [Link Guide](https://www.computerhope.com/unix/uln.htm) \
+
 ``$ link fileExist.txt newLinkFile.txt``
+
 * The file name and the file's data are two separate entities.
+
 ![link illustration](https://www.computerhope.com/unix/images/nolink-diagram.jpg)
 
 ## List all files including inode
@@ -60,8 +68,37 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 
 `$ which column` \
 
-`$ dpkg -S $(which column)` \
+`$ dpkg -S $(which column)`
+
+## Check the ip address
+`$ ip address`
+
+## Deafult permission | umask command
+
+### Default File permission
+> Files: rw-rw-rw- (666)
+> Directories: rwxrwxrwx (777)
+
+#### Get the umask value
+>`$ umask`
+
+>Lets assume your umask value is 002
+>octal to binary to mode
+>002 --> 010 --> -w-
+
+> Now create a file called: student.txt
+> Calculate the mode value beforehand:
+> rw- rw- rw-
+> --- --- -w-
+> ----------------
+> rw- rw- r-- ==> 664
+
+### Now check the student.txt file permssion using ls -l or stat command
+`$ stat student.txt`
 
 
 
-
+### References:
+* [Hard link](https://www.cyberciti.biz/faq/how-to-find-all-hard-links-in-a-directory-on-linux/)
+* [LS Display](https://askubuntu.com/questions/811210/how-can-i-make-ls-only-display-files)
+* [Unmask] (https://www.youtube.com/watch?v=JYT7y_Pe9wE)
