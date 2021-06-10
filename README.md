@@ -5,7 +5,8 @@
 
 ## which command gives the command location / source path
 `$ which ls`
-output:\n
+
+> output:
 > /usr/bin/ls
 
 ## Hard link
@@ -59,14 +60,14 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 - \> means door.
 - / means directory.
 
-> `ls -F | grep -Ev '/|@|*|=|\|'` \
+> `ls -F | grep -Ev '/|@|*|=|\|'`
 
 > `ls -F | grep -Ev '/|@|*|=|>|\|'`
 
 ## How to get package info (using package manager dpkg)
-`$ whatis dpkg` \
+`$ whatis dpkg`
 
-`$ which column` \
+`$ which column`
 
 `$ dpkg -S $(which column)`
 
@@ -76,7 +77,7 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 ## Deafult permission | umask command
 
 ### Default File Permission
-* Files: rw-rw-rw- (666) \
+* Files: rw-rw-rw- (666)
 * Directories: rwxrwxrwx (777)
 
 #### Get the umask value
