@@ -93,7 +93,7 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 > ----------------
 > rw- rw- r-- ==> 664
 
-### Now check the student.txt file permssion using ls -l or stat command
+* Now check the student.txt file permssion using ls -l or stat command
 `$ stat student.txt`
 
 
@@ -101,4 +101,4 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 ### References:
 * [Hard link](https://www.cyberciti.biz/faq/how-to-find-all-hard-links-in-a-directory-on-linux/)
 * [LS Display](https://askubuntu.com/questions/811210/how-can-i-make-ls-only-display-files)
-* [Unmask] (https://www.youtube.com/watch?v=JYT7y_Pe9wE)
+* [Unmask](https://www.youtube.com/watch?v=JYT7y_Pe9wE)
