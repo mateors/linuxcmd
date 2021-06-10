@@ -21,7 +21,9 @@
 ## How can I make ls only display files?
 ### Method-1
 `$ls -p | grep -v /` \
+
 `$ls -p | grep -v / | column`
+
 > Using ls -p tells ls to append a slash to entries which are a directory, and using grep -v / tells grep to return only lines not containing a slash.
 
 - p adds the forward slash ('/') to the directory names
@@ -50,11 +52,14 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 - / means directory.
 
 > `ls -F | grep -Ev '/|@|*|=|\|'` \
+
 > `ls -F | grep -Ev '/|@|*|=|>|\|'`
 
 ## How to get package info (using package manager dpkg)
 `$ whatis dpkg` \
+
 `$ which column` \
+
 `$ dpkg -S $(which column)` \
 
 
