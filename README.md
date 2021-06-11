@@ -96,6 +96,8 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 
 > Now check the student.txt file permssion using ls -l or stat command
 `$ stat student.txt`
+>
+>
 
 
 
