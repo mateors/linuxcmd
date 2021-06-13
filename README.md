@@ -97,7 +97,29 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 > Now check the student.txt file permssion using ls -l or stat command
 `$ stat student.txt`
 >
->
+
+# Concatenate Command -cat
+> It reads data from the file  and gives their content as output. It helps us to create, view, concatenate files
+
+> `cat > file1.txt
+ master-academy
+ to save and close use ctrl+d
+ <newline feed>
+`
+> `cat -n file1.txt`
+> show content with line numbers
+
+> `cat file1.txt > file2.txt` overright one file by another
+
+> `tac file1.txt` content display in reverse order
+
+> `cat file1.txt file2.txt` view content from multiple files
+
+> `cat file1.txt file2.txt > file3.txt` combines multiple files output into a new file
+
+> `cat file1.txt >> file2.txt` to append the file1.txt to file2.txt
+
+
 
 
 
