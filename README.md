@@ -119,7 +119,7 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 
 > `cat file1.txt >> file2.txt` to append the file1.txt to file2.txt
 
-
+> `cat file1.txt | cat >> other.txt` pipeing one file output appending into other file
 
 
 
