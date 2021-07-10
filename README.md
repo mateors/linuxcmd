@@ -121,6 +121,19 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 
 > `cat file1.txt | cat >> other.txt` pipeing one file output appending into other file
 
+<br />
+<br />
+
+## How to Boot Ubuntu into Text Mode / Console / Command Line for low-spec Computer On Oracle Virtual Box
+
+> ## Method 01 : 
+> [Ubuntu Desktop to Text or Command Console for minimal use](https://github.com/shamim4s/linux-guide/blob/master/Ubuntu-Desktop-to-Text-or-Command-Console-for-minimal-use.md)
+
+> ## Method 02 :
+> ###### Best for low spec Computer...
+> [How to Run Ubuntu Cloud minimal on VMware or Oracle VirtualBOX](https://github.com/shamim4s/linux-guide/blob/master/Ubuntu-Cloud-for-oracle-virtualBox.md)
+> <br />
+<br />
 
 
 ### References:
