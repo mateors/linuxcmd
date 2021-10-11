@@ -1,5 +1,7 @@
 ##  What does “{} \;” mean in find (in Linux)?
-> it's a placeholder for each file that the find command locates (taken from here).
+> it's a placeholder for each file that the find command locates (taken from here). \
+> sefacl is a special command which used to set beyond non-group user accessing the file system \
+> suppose user mostain is not in a member of devops group but still we can allow him to access certain file or folder.
 
 ## setfacl && getfacl
 >  setfacl command sets file access control lists. \
