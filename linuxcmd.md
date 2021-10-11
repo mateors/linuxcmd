@@ -1,7 +1,7 @@
 ##  What does “{} \;” mean in find (in Linux)?
 > it's a placeholder for each file that the find command locates (taken from here). \
 
-## Why setfacl while we have chmod & chown & sticky bit?
+## Why setfacl while we have chmod, chown & sticky bit?
 > sefacl is a special command which used to set beyond non-group user accessing the file system \
 > suppose we have a file called record.txt user **wania** is the owner of the file and is under devops group. \
 > Another user **mostain** who is not in a member of the devops group \
