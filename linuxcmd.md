@@ -8,6 +8,9 @@
 > setfacl -m u:mostain:rwx file1.txt \
 > setfacl -m g:devops:r-x file1.txt
 
+## Modifying multiple directory in a single command
+> setfacl -R -m u:sanzida:rX /home/mostain/{live,tutorial}
+
 ## Show the current ACL
 > getfacl file1.txt
 
