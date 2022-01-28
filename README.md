@@ -128,12 +128,12 @@ ls -F appends symbols to filenames. These symbols show useful information about 
 > ls -l /etc/localtime
 
 ### List all existing time zone
-> timedatectl list-timezones
-Asia/Dhaka
+> timedatectl list-timezones \
+> example time zone: Asia/Dhaka
 
-sudo timedatectl set-timezone <your_time_zone>
+> sudo timedatectl set-timezone <your_time_zone>
 
-sudo timedatectl set-timezone Asia/Dhaka
+> sudo timedatectl set-timezone Asia/Dhaka
 
 ### References:
 * [Hard link](https://www.cyberciti.biz/faq/how-to-find-all-hard-links-in-a-directory-on-linux/)
