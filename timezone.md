@@ -1,4 +1,4 @@
-## Changing the Time Zone in Linux
+## Changing the Time Zone in Linux (tested with ubuntu 20.04)
 
 > timedatectl
 
