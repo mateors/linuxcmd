@@ -9,6 +9,26 @@ Repository is a place where software is stored
 Files associated with a package management system. Every Linux distribution comes with a package management system, but they are not all the same.
   
 The most common method of installing apps from the command line is through software repositories using what's called a package manager. All Linux apps are distributed as packages.
+ 
+### What is Dependency?
+What other apps it may depend on
+  
+## What is Package management system?
+A package management system is comprised of sets of tools and file formats that are used together to install, update, and uninstall Linux apps.
+  
+> The most common package management systems are .deb .rpm .tar
+  
+* Red Hat, CentOS, and Fedora all use the rpm system (.rpm files)
+* Debian, Ubuntu, Mint use dpkg (.deb files)
+* Arch Linux uses nothing but tarballs (.tar files)
+* Gentoo Linux uses a system called Portage
+  
+## What's inside an .rpm, .deb, or .tar file?
+Nothing more than plain old archive files (like .zip) that contain an application's code, instructions on how to install it, dependencies , and where its configuration files should be placed. The software that reads and executes all of those instructions is called a package manager.
+  
+## What is Package manager?
+A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed.
+  
   
 Syntax for installing deb-files
 
