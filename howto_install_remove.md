@@ -1,7 +1,7 @@
 ## How to install any application using command line?
 There are two way of doing this using the command line
 
-Syntax for both
+Syntax for installing deb-files
 
 > sudo apt install path_to_deb_file
 
