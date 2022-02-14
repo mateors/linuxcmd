@@ -28,7 +28,12 @@ Nothing more than plain old archive files (like .zip) that contain an applicatio
   
 ## What is Package manager?
 A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed.
+
+## DPKG
+Stands for Debian package. It is the default package manager on Ubuntu. **Debian-based distributions** all use .deb files and the dpkg package management system.
   
+## APT
+* [Advanced Package Tool or APT](https://wiki.debian.org/Apt)
   
 Syntax for installing deb-files
 
