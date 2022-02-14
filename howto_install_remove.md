@@ -30,7 +30,7 @@ Nothing more than plain old archive files (like .zip) that contain an applicatio
 A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed.
 
 ## DPKG
-Stands for Debian package. It is the default package manager on Ubuntu. **Debian-based distributions** all use .deb files and the **dpkg** package management system. **dpkg** is a command line way to install from a **.deb** or remove already installed packages.
+Stands for Debian package. It is the default package manager on Ubuntu. **Debian-based distributions** all use .deb files and the **dpkg** package management system. **dpkg** is a command line way to install from a **.deb** or remove already installed packages.The downside is that **dpkg does not install missing dependency packages automatically.**
   
 ## APT
 * [Advanced Package Tool or APT](https://wiki.debian.org/Apt)
@@ -44,7 +44,10 @@ Syntax for installing deb-files
 example:
 > sudo apt install ./code_1.64.2-1644445741_amd64.deb
 
+we can install the required dependencies with a single command, assuming that they are available in Ubuntu’s package repository. Just run this command to install the dependencies: 
+> sudo apt install -f
 
 ## Resource
 * https://itsfoss.com/install-deb-files-ubuntu/
 * https://opensource.com/article/18/8/how-install-software-linux-command-line
+* https://ubuntuhandbook.org/index.php/2021/04/install-deb-file-ubuntu-4-ways
