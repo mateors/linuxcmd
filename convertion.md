@@ -1,8 +1,10 @@
 ## PPK to PEM convertion
-
 > puttygen ppkfilename.ppk -O private-openssh -o pemfilename.pem 
 
+##  PEM to PPK convertion
+Convert a PEM .pem file to a .ppk file
 
+> puttygen pemKey.pem -o ppkKey.ppk -O private
 
 ## Resource
 * https://www.cyberciti.biz/faq/how-to-tar-a-file-in-linux-using-command-line
